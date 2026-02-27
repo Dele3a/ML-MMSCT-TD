@@ -2,7 +2,7 @@
 
 MATLAB implementations for **Université Gustave Eiffel** course *Machine Learning for Mechanics* (Instructor: Julien Yvonnet). Complete solution to **TD1, TD2, TP3** with report generation.
 
-## 📋 Course Exercises
+## Course Exercises
 
 ### **TD1: Neural Network Regression**
 - **Q1**: 3D→1D cubic function approximation (4 architectures tested)
@@ -24,5 +24,11 @@ MATLAB implementations for **Université Gustave Eiffel** course *Machine Learni
 - Shape detection (circle/square/band) with patternnet
 - **Best accuracy**: 80% (single-layer net)
 
-
+| Exercise | Method         | Key Metric    | Result          |
+| -------- | -------------- | ------------- | --------------- |
+| TD1 Q1   | 2L-5N NN       | Val MSE       | $2.3×10^{-5}$   |
+| TD1 Q2   | 2L-10N         | Test MSE      | $3.8×10^{-8}$   |
+| TD2      | K-means K=4    | Silhouette    | ~0.75           |
+| TD3      | 1L-10N         | Test Accuracy | 80%             |
+| TP3 Q3   | POD 95% energy | Avg modes     | 3-5 per cluster |
 cd ml-mechanics-m2
