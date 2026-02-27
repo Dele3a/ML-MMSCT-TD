@@ -24,6 +24,8 @@ MATLAB implementations for **Université Gustave Eiffel** course *Machine Learni
 - Shape detection (circle/square/band) with patternnet
 - **Best accuracy**: 80% (single-layer net)
 
+### **Key Results Summary**
+
 | Exercise | Method         | Key Metric    | Result          |
 | -------- | -------------- | ------------- | --------------- |
 | TD1 Q1   | 2L-5N NN       | Val MSE       | $2.3×10^{-5}$   |
@@ -31,4 +33,4 @@ MATLAB implementations for **Université Gustave Eiffel** course *Machine Learni
 | TD2      | K-means K=4    | Silhouette    | ~0.75           |
 | TD3      | 1L-10N         | Test Accuracy | 80%             |
 | TP3 Q3   | POD 95% energy | Avg modes     | 3-5 per cluster |
-cd ml-mechanics-m2
+
