@@ -24,9 +24,5 @@ MATLAB implementations for **Université Gustave Eiffel** course *Machine Learni
 - Shape detection (circle/square/band) with patternnet
 - **Best accuracy**: 80% (single-layer net)
 
-## 🚀 Quick Start
 
-1. **Clone & navigate**
-```bash
-git clone https://github.com/YOUR_USERNAME/ml-mechanics-m2.git
 cd ml-mechanics-m2
